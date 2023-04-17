@@ -1,0 +1,114 @@
+
+
+/* SFONDO */
+body{
+    background-image: url(Immagini/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;    
+  }
+  /* RIMOZIONE MARGINE */
+   * {
+      box-sizing: content-box;
+      margin: 0;
+    }
+    /* BODY */
+    body div:first-child {
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 850px;
+      width: 1200px;
+      margin: auto;
+      margin-top: 30px;
+      border-radius: 22px;
+    }
+        /* LOGO */
+    .LogoText{
+      color: lime;
+      font-size: 30px;
+      display: block;
+      
+     
+    }
+    /* HEADER */
+    header {
+      text-align: center;
+      margin-top: 34px;
+      
+    }
+    
+    header :first-child {
+      height: 115px;
+      margin-top: 99px;
+    }
+    
+    header>div {
+      background-color: rgb(0, 255, 0);
+      height: 30px;
+      width: 80%;
+      margin: auto;
+      display: inline-block;
+    }
+
+    /*BOTTONI*/
+    .bottoni{
+      text-align: center;
+      background-color: lime;
+      padding: 10px ;
+      border: none;
+      margin: auto;
+      width: 950px;
+      margin-top: 3px;
+      
+    }
+    /* MAIN */
+    .Monopattino{
+      
+      color: white;
+      margin-top: 15px;
+      margin-left: 120px;
+      font-size: 12px;
+    }
+    .checkbox{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .checkbox-titolo{
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 9px;
+    }
+    /*STATO DI CARICA*/
+    .StatoCarica1{
+      background-color: rgb(230, 156, 65);
+      padding: 15px;
+      border-radius: 6px;
+      width: 29%;
+      display: inline-block;
+      margin-top: 4px;
+    }
+    .StatoCarica2{
+        background-color: rgb(0, 193, 0);
+        padding: 15px;
+        border-radius: 6px;
+        width: 49%;
+        display: inine-block;
+        margin-top: 4px;
+      }
+      .StatoCarica3{
+        background-color: rgb(217, 2, 85);
+        padding: 15px;
+        border-radius: 6px;
+        width: 12%;
+        display: inline-block;
+        margin-top: 4px;
+      }
+      
+      .Via{
+        margin-bottom: 8px;
+        font-size: 18px;
+      }
+      .FontStatoC{
+        font-size: 14px;
+      }
+
+      
